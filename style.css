@@ -209,3 +209,68 @@ li a:hover{
     width:300px;
     margin-left: 380px;
 }
+.search:hover{
+    box-shadow:0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.lucky:hover{
+    box-shadow:0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.footer{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height: 47px;
+}
+.footerbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    order: 1;
+    min-width: 30%;
+}
+.advertising{
+    color: rgb(112, 117, 122);
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    white-space: nowrap;
+}
+.business{
+    color: rgb(112, 117, 122);
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    white-space: nowrap;
+}
