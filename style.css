@@ -246,7 +246,21 @@ li a:hover{
     order: 1;
     min-width: 30%;
 }
-.advertising{
+.bottomleft{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 30%;
+    color: rgb(34, 34, 34);
+}
+.bottomright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 30%;
+    color: rgb(34, 34, 34);
+}
+.footerlink{
     color: rgb(112, 117, 122);
     cursor: pointer;
     display: block;
@@ -260,17 +274,10 @@ li a:hover{
     text-decoration-thickness: auto;
     white-space: nowrap;
 }
-.business{
+.footerlink:hover{
     color: rgb(112, 117, 122);
     cursor: pointer;
     display: block;
-    font-size: 14px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: auto;
+    text-decoration-line: underline;
     white-space: nowrap;
 }
